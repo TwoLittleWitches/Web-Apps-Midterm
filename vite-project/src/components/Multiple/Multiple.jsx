@@ -115,6 +115,8 @@ export default function Multiple() {
         />
       </div>
 
+      <label>Qualification</label>
+
       <div>
         <label htmlFor="highschool" className="checkbox__text">
           <input
@@ -126,7 +128,9 @@ export default function Multiple() {
           />
           High School (10th)
         </label>
+      </div>
 
+      <div>
         <label htmlFor="higherschool" className="checkbox__text">
           <input
             className="checkbox__input"
@@ -137,7 +141,9 @@ export default function Multiple() {
           />
           Higher School (12th)
         </label>
+      </div>
 
+      <div>
         <label htmlFor="graduate" className="checkbox__text">
           <input
             className="checkbox__input"
@@ -148,7 +154,9 @@ export default function Multiple() {
           />
           Graduate (Bachelors)
         </label>
+      </div>
 
+      <div>
         <label htmlFor="postgraduate" className="checkbox__text">
           <input
             className="checkbox__input"
@@ -159,7 +167,9 @@ export default function Multiple() {
           />
           Post-Graduate (Masters)
         </label>
+      </div>
 
+      <div>
         <label htmlFor="other" className="checkbox__text">
           <input
             className="checkbox__input"
